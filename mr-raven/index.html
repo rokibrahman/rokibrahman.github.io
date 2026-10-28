@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mr. Raven: Personal Executive Assistant</title>
+<meta name="description" content="Mr. Raven is a private, self-hosted AI executive assistant used by one person to triage email, track tasks and send daily briefs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@620&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#14161C; --gold:#E9B44C; --cream:#F3EEE3; --muted:#5b5f6b; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--cream); color:var(--ink); font:16px/1.6 Inter,system-ui,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:56px 20px 40px; }
+  h1 { font-family:Fraunces,Georgia,serif; font-weight:620; font-size:44px; line-height:1.1; margin:0 0 8px; }
+  h1 .mr { color:var(--gold); }
+  .tag { color:var(--muted); font-size:18px; margin:0 0 36px; }
+  h2 { font-size:18px; margin:32px 0 8px; }
+  ul { padding-left:20px; margin:0; }
+  li { margin:4px 0; }
+  .note { margin-top:32px; padding:16px 18px; background:#fff; border-left:4px solid var(--gold); border-radius:6px; }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid #d9d2c3; color:var(--muted); font-size:14px; }
+  a { color:var(--ink); }
+</style>
+</head>
+<body>
+<main>
+  <h1><span class="mr">Mr.</span> Raven</h1>
+  <p class="tag">A private, self-hosted AI executive assistant for one person.</p>
+
+  <p>Mr. Raven is a personal assistant that its owner runs on his own server and uses through a private Telegram chat. It is not a commercial product, has no other users, and is not offered to the public.</p>
+
+  <h2>What Mr. Raven does</h2>
+  <ul>
+    <li>Reads the owner's Gmail inbox and sorts messages into "reply today", "later" and "FYI".</li>
+    <li>Writes draft replies in Gmail Drafts for the owner to review and send himself.</li>
+    <li>Pulls tasks and deadlines out of emails and tracks them.</li>
+    <li>Sends the owner a short morning and evening brief.</li>
+  </ul>
+
+  <h2>What it never does</h2>
+  <ul>
+    <li>It never sends, deletes or forwards email on its own. Every change needs the owner's approval.</li>
+    <li>It never shares data with anyone other than the owner.</li>
+  </ul>
+
+  <div class="note">
+    <strong>Google user data:</strong> Mr. Raven accesses only the Gmail data of its owner's own account, with his consent. See the <a href="privacy.html">Privacy Policy</a> for details.
+  </div>
+
+  <footer>
+    Mr. Raven · <a href="privacy.html">Privacy Policy</a> · Contact: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a> · <a href="../">Home</a>
+  </footer>
+</main>
+</body>
+</html>
